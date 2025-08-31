@@ -10,8 +10,8 @@ const About = () => {
   });
 
   return (
-    <div id="about" className="text-white py-16 px-6 md:px-12 lg:px-20" ref={ref}>
-      <div className="container mx-auto text-center">
+    <div id="about" className="text-white py-16 px-6 md:px-12 lg:px-20" >
+      <div className="container mx-auto text-center" ref={ref}>
         {/* Section Heading */}
         <motion.h2
           
