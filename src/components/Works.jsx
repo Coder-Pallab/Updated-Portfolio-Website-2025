@@ -12,28 +12,28 @@ const Works = () => {
     {
       id: 1,
       title: "Old Portfolio Website",
-      description: "This was my first personal portfolio project...",
+      description: "This was my very first portfolio website, where I started showcasing my journey in web development. It highlights my early projects, skills, and design experiments as I learned the fundamentals of frontend development. While the design and features are simple compared to my current work, this site represents the foundation of my growth as a developer and the passion that drove me to keep improving.",
       image: Project1,
       link: "#"
     },
     {
       id: 2,
       title: "Brahmaputra Real Estate",
-      description: "A real estate website designed to showcase properties...",
+      description: "The Brahmaputra Real Estate website is a modern, responsive platform designed to showcase property listings and services in a clean, user-friendly way. Built with a focus on professional design and smooth navigation, it highlights real estate offerings with clear layouts, images, and details to provide potential clients with a seamless browsing experience. This project reflects my ability to create business-oriented websites that balance aesthetics with functionality.",
       image: Project2,
       link: "#"
     },
     {
       id: 3,
       title: "Aaahar Food Delivery",
-      description: "Aaahar is a food delivery platform I’m currently building...",
+      description: "Aaahar Food Delivery is an ongoing project where I’m building a responsive and user-friendly platform for seamless online food ordering. The website is designed with clean layouts, easy navigation, and categorized menus to enhance the customer experience. Currently, I’m working on adding more advanced features and improving the UI/UX to make it a complete full-stack web application.",
       image: Project3,
       link: "#"
     },
     {
       id: 4,
       title: "Namaskar AI - A Conversational Web App",
-      description: "Namaskar AI is an interactive web application built...",
+      description: "Namaskar AI is an AI-powered web application built using the Gemini API to deliver intelligent, conversational assistance. The project combines a clean, responsive interface with powerful AI capabilities, enabling users to interact seamlessly and get accurate, context-aware responses. As an ongoing project, I’m continuously working on expanding features and enhancing the overall user experience to make it more interactive and practical.",
       image: Project4,
       link: "#"
     }
