@@ -6,12 +6,12 @@ import { useInView } from 'react-intersection-observer';
 const About = () => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.5,
   });
 
   return (
     <div id="about" className="text-white py-16 px-6 md:px-12 lg:px-20" >
-      <div className="container mx-auto text-center" ref={ref}>
+      <div ref={ref} className="container mx-auto text-center" >
         {/* Section Heading */}
         <motion.h2
           
