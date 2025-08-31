@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 const About = () => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.05,
   });
 
   return (
@@ -17,7 +17,7 @@ const About = () => {
           ref={ref}
           initial={{ opacity: 0, y: 100 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.1, duration: 0.5 }}
+          transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold mb-8 relative inline-block"
         >
           <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
