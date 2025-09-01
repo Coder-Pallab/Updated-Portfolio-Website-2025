@@ -68,8 +68,7 @@ const Contact = () => {
                     animate={inView ? { opacity: 1, y: 0 } : {}}
                     transition={{ delay: 0.3, duration: 0.5 }}
                     className='text-slate-400 mt-4'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Similique harum dolorem iure ratione quae expedita quam ducimus quas facere.
+                    I’m always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Whether you want to collaborate, ask a question, or just say hi — feel free to reach out.<br/>📩 You can contact me via email, connect with me on social platforms, or simply fill out the form below.
                 </motion.p>
             </div>
 
