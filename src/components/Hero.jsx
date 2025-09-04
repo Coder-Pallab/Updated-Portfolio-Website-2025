@@ -1,5 +1,5 @@
 import React from 'react'
-import Avatar from "../assets/Pallab-logo.png"
+import Avatar from "../assets/pallab-logo.png"
 import { motion } from "motion/react";
 import { Link } from "react-scroll";
 
